@@ -11,7 +11,7 @@ var myTemplateConfig = {
 	tagFont:"normal 8pt Tahoma"
   },
   commit: {
-	spacingY: -40,
+	spacingY: -30,
     dot: {
       size: 8
     },
@@ -34,33 +34,39 @@ function createParcours(){
 	var master = gitgraph.branch({column:4 });
 	
 	master.showLabel=false;
-	gitgraph.commit({sha1:"Sept 2005",message:"Master Econométrie",tag:"09-2005 Université",tooltipDisplay:false});
+	gitgraph.commit({sha1:"41_1",message:"Master Econométrie",tag:"09-2005 Université",tooltipDisplay:false});
 	
 	
 	//stage.spacingX=10;
 	
-	master.commit({sha1:"Sept 2005",message:"Stage",tag:"03-2007 Carat Expert",dotSize:1,tooltipDisplay:false});
+	master.commit({sha1:"99_0",message:"Stage",tag:"03-2007 Carat Expert",dotSize:1,tooltipDisplay:false});
 	var stage = master.branch({column:1, name: "Statistiques"});
-	stage.commit({sha1:"Avril 2007",message:"Stage validation Master 2",spacingY:-100}).commit({sha1:"Oct 2007",message:"CDD Carat - Chargé d'études statistiques"});
+	stage.commit({sha1:"42_1",message:"Stage - CDD Carat",spacingY:-100});
 	
 	var socio = gitgraph.branch({parentBranch:master, column:1});
 	socio.showLabel = false;
 	
-	socio.commit({sha1:"2008-01",message:"Analyste Programmeur - SocioLogiciels"});
+	socio.commit({sha1:"43_1",message:"Analyste Programmeur - SocioLogiciels"});
 	master.commit({sha1:"Sept 2005",message:"SocioLogiciels",tag:"01-2008 SocioLogiciels",dotSize:1,tooltipDisplay:false});
 	var geom = gitgraph.branch({parentBranch:socio, name:"Geomarketing", column:0}) 
 
-	geom.commit({sha1:"2008-06",message:"Chargé étude Géomarketing - SocioLogiciels"});;
-	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false,tag:"08-2013 NP6 Solution"});
+	geom.commit({sha1:"43_2",message:"Chargé étude Géomarketing - SocioLogiciels"});;
+	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false})
 	var info = master.branch({column:3, name: "Devoloppeur Informatique",tooltipDisplay:false,dotSize:1});
-	info.commit({sha1:"2008-01",message:"NP6 -Devoloppeur Informatique "});
+	info.commit({sha1:"44_1",message:"Developpeur Informatique - SocioLogiciels"})
+	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false})
+	
+	
+	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false,tag:"08-2013 NP6 Solution"});
+	info.commit({sha1:"45_1",message:"NP6 - Devoloppeur Informatique "});
+	info.commit({sha1:"45_1",tooltipDisplay:false,dotSize:1});
 	socio.commit({tooltipDisplay:false});
 	geom.commit({tooltipDisplay:false});
 	
 	master.commit({sha1:"04-2015",tooltipDisplay:false,dotSize:1});
 	
 	var dataScientist = socio.branch({name:"DataScientist", column:3, color:"#f1c109"});
-	//dataScientist.branch.color="red";
+	
 	info.merge(dataScientist,{tooltipDisplay:false,dotSize:3});
 	dataScientist.commit({message:"NP6 DataScientist"});
 	

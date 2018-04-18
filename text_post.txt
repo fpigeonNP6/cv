@@ -1,4 +1,4 @@
-textPoste={"general":
+textPoste={"general":{"description":
 "<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. <br><br>"+					
 "<span class=\"marge\">J'ai participé à différents travaux statistiques allant de l'analyse de données (ACP-ACM-Typologies) à la modélisation, en passant par des sujets de géomarketing.<br> "+
 "Mes travaux statistiques sont principalement axés Clients, comprendre les facteurs qui induisent une réaction du client en vue d'orientés un annonceur, un institut "+
@@ -6,8 +6,36 @@ textPoste={"general":
 "Celles-ci sont aussi bien orienter Statistiques (Python, SAS, Modeler, ExcelStat...) que de developpement pur (Java, C#, VB/VBA). "+ 
 "Travaillant avec de la donnée à plus ou moins grande échelle, j'ai acquis des compétences en langage SQL (SQLServer) et noSQL (ElasticSearch).<br><br>"+
 "<span class=\"marge\">La statistique doit être compréhensible et ludique, il est donc nécessaire de la visualiser. Je me suis donc intéressé à différents modes "+
-"de visualisation, notamment en javascript (librairies comme HightChart, d3js), interne aux outils (matplotlib pour Python, SASGraph) ainsi qu'en cartographie (MapInfo, Leaflet, GoogleMaps)."
-,"universite":
+"de visualisation, notamment en javascript (librairies comme HightChart, d3js), interne aux outils (matplotlib pour Python, SASGraph) "+
+"ainsi qu'en cartographie (MapInfo, Leaflet, GoogleMaps).","competence":{},"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"0"}}
+,"42_1":{"description":
 "<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. (...) <br><br>"+
-"Université"
+"<i>Avril 2007 - Décembre 2007 : Stage suivi d'un CDD chez Carat<br></i><br>"+
+"<span class=\"marge\"> Stage effectué au sein du service Etude sous la responsabilité de Mr Lhote. L'objectif est de mettre en évidence une relation entre le souvenir publicitaire "+
+"et la notoriété d'une marque. <br>Carat avait à sa disposition des travaux sur le souvenir publicitaire permettant de quantifier celui-ci en fonction d'un plan publicitaire (exposition "+
+"selon les différents canaux). L'idée étant d'apporter à l'annonceur une prévision de sa notoriété à l'issu d'une campagne.<br><br>"+
+"<span class=\"marge\">Les résultats étaient intéressant pour le secteur de la cosmétique, contrairement à d'autres secteurs comme l'aide à la personne<br><br>"+
+"<span class=\"marge\"> Conjoitement à ce sujet, j'ai participé à l'activité en prenant en charge le traitement de tracking hebdomadaires (traitement données, interprétations des résultats).<br><br>"+
+"Environnement de travail : SAS - Excel - Outils publicitaires",
+"competence":[{axis:"Concept Statistiques",percent:0.5},
+						{axis:"Développement Informatique",percent:0.1},
+						{axis:"Geomarketing",percent:0.0},
+						{axis:"DataVisualisation",percent:0.0},
+						{axis:"Théorie Economique",percent:0.6}
+]
+,"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"42"}}
+
+,"42_2":{"description":
+"<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. (...) <br><br>"+
+"<i>CDD Carat: CDD Traitement Statistique.<br></i><br>"+
+"<span class=\"marge\"> Poursuite des travaux initiés lors du stage<br><br>"+
+"<span class=\"marge\">Les résultats étaient intéressant pour le secteur de la cosmétique, contrairement à d'autres secteurs comme l'aide à la personne<br><br>"+
+"<span class=\"marge\"> Conjoitement à ce sujet, j'ai participé à l'activité en prenant en charge le traitement de tracking hebdomadaires (traitement données, interprétations des résultats).<br><br>"+
+"Environnement de travail : SAS - Excel - Outils publicitaires","competence":
+[{axis:"Concept Statistiques",percent:0.2},
+						{axis:"Développement Informatique",percent:0.2},
+						{axis:"Geomarketing",percent:0.2},
+						{axis:"DataVisualisation",percent:0.2},
+						{axis:"Théorie Economique",percent:0.2}
+],"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"42"}}
 }

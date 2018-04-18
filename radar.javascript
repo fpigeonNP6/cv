@@ -1,3 +1,5 @@
+var radius =125
+var colors = ["#329AF0","#f1c109"];
 var dataGraph = [
 					  [//iPhone
 						
@@ -6,7 +8,7 @@ var dataGraph = [
 						{axis:"Geomarketing",percent:0.8},
 						{axis:"DataVisualisation",percent:0.6},
 						{axis:"Théorie Economique",percent:0.6}
-						]]
+						],[]]
 var radarChartOptions = {
 				  w: 200,
 				  h: 200,
@@ -227,9 +229,9 @@ var radarChartOptions = {
 					
 					
 
-					var div = d3.select("body").append("div")
-						.attr("class", "tooltip")
-						.style("opacity", 0);
+					//var div = d3.select("body").append("div")
+					//	.attr("class", "tooltip")
+					//	.style("opacity", 0);
 
 						
 					/////////////////////////////////////////////////////////
@@ -271,9 +273,9 @@ var radarChartOptions = {
 						});
 						
 					//Set up the small tooltip for when you hover over a circle
-					var tooltip = g.append("div")
-						.attr("class", "tooltip")
-						.style("opacity", 0);
+					//var tooltip = g.append("div")
+					//	.attr("class", "tooltip")
+					//	.style("opacity", 0);
 					
 					
 					
@@ -309,16 +311,16 @@ var radarChartOptions = {
 						.attr("y", function(d, i){ return rScale(maxValue * cfg.labelFactor) * Math.sin(angleSlice*i - Math.PI/2); })
 						.text(function(d){return d})
 						.on('mouseover', function(d,i){
-							div.transition()
-								.duration(200)
-								.style("opacity", .9);
+							//div.transition()
+							//	.duration(200)
+							//	.style("opacity", .9);
 							//div.html(d.value + "<br/>" + d.tooltip)
 							
 								})
 						.on("mouseout", function(){
-							div.transition()
-								.duration(200)
-								.style("opacity", 0);
+							//div.transition()
+							//	.duration(200)
+							//	.style("opacity", 0);
 						})
 						.call(wrap, cfg.wrapWidth);	
 						
@@ -362,4 +364,43 @@ var radarChartOptions = {
 				}//RadarChart
 				
 				
-				
+		function update_radar(dataGraph){
+			radius = 50
+			angleSlice = Math.PI * 2 / dataGraph[0].length
+			//RadarChart(".radarChart", dataGraph, radarChartOptions);
+			var rScale = d3.scale.linear()
+					.range([0, radius])
+					.domain([0, 0.5]);
+			var radarLine = d3.svg.line.radial()
+				.interpolate("cardinal-closed")
+				.radius(function(d) { return rScale(d.percent); })
+				.angle(function(d,i) {	return i*angleSlice; });
+			
+			d3.selectAll('.radarCircle').remove()
+			
+			var allArea = d3.selectAll(".radarArea")[0]
+			var allStroke = d3.selectAll(".radarStroke")[0]
+			var allWrapper = d3.selectAll(".radarWrapper")[0]
+			for (nbArea=0; nbArea<allArea.length; nbArea++)
+			{
+				d3.selectAll(".radarArea")[0][nbArea].__data__=dataGraph[nbArea];
+				d3.selectAll(".radarStroke")[0][nbArea].__data__=dataGraph[nbArea];
+				d3.selectAll(".radarWrapper")[0][nbArea].__data__=dataGraph[nbArea];
+			}
+			d3.selectAll(".radarStroke").transition()
+				.attr("d", function(d,i,j) { 
+					return radarLine(d); }).duration(600);
+			
+			d3.selectAll(".radarWrapper").transition()
+				.attr("d", function(d,i) { 
+				return radarLine(d); }).duration(600);
+			d3.selectAll(".radarArea").transition()
+				.attr("d", function(d,i) { 
+				return radarLine(d); }).duration(600);
+			d3.selectAll(".radarArea")
+				.attr("style", function(d,i){ return "fill:"+ d3.rgb(colors[i]).toString() +";fill-opacity:"+(0.2*i)+";"});
+			d3.selectAll(".radarStroke")
+				.attr("style", function(d,i){ return "stroke-width: 2px; stroke: "+ d3.rgb(colors[i]).toString()+"; fill: none; filter: url('#glow');"});
+					
+			//dataGraph=dataGraph_temp						
+		}				

@@ -52,7 +52,7 @@
 		<tr>
 			<td rowspan=2><canvas id="gitGraph"></canvas></td>
 			<td rowspan=2 style="vertical-align:top;" ><h4  name="description" id="descriptionPoste"
-				style=" border:2px;width:450px;text-align: justify;white-space: normal;font-family:trebuchet MS;font-size:  12pt" readonly="readonly" rows="4" cols="66"
+				style=" border:2px;width:450px;text-align: justify;white-space: normal;font-family:trebuchet MS;font-size:  10pt" readonly="readonly" rows="4" cols="66"
 				>
 					
 					
@@ -124,8 +124,21 @@ var myevent;
 RadarChart(".radarChart", dataGraph, radarChartOptions);
 function print(t) {
   var c = document.getElementById('descriptionPoste');
-  c.innerHTML = t;
-  mymap._targets['41']._icon.srcset="https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png"
+  c.innerHTML = t['description'];
+  
+	["41","42","43","44","45"].forEach(function(element) {
+		if (t['map']['icon']==element){
+		mymap._targets[element]._icon.srcset="https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-yellow.png"
+	}
+	else
+	{
+		mymap._targets[element]._icon.srcset="https://unpkg.com/leaflet@1.3.1/dist/images/marker-icon-2x.png"
+	}
+	});
+  
+  mymap.setView(t['map']['center'],t['map']['zoom']);
+  dataGraph[1]=t['competence'];
+  update_radar(dataGraph);
 }
 
 // Demo

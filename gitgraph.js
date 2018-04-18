@@ -412,7 +412,10 @@
         if (!self.template.commit.message.display && self.template.commit.shouldDisplayTooltipsInCompactMode) {
           showCommitTooltip(commit);
 		  mycommit=commit.sha1;
-		  print(textPoste["universite"]);
+		  if (mycommit in textPoste){
+		  print(textPoste[mycommit])
+		  }
+		  else print(textPoste["general"]);
         }
 
         // Don't emit event if we already were over a commit.
