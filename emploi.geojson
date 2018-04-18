@@ -1,0 +1,44 @@
+var emploi = {"type":"FeatureCollection",
+"features":[
+{"type": "Feature","geometry": 
+	{"type": "Point", 
+	"coordinates": [ -1.676230,48.116537]  },  
+		"properties": { 
+			"name":"Universitaire Droit-Économie-Gestion - Rennes 1" 
+		}
+		},
+{"type": "Feature","geometry": 
+	{"type": "Point", 
+	"coordinates": [-0.580816,44.836151]   },  
+		"properties": { 
+		     "AirCube": true,
+			"date": "20160204 09:00", 
+			"name": "Marathon de Bordeaux",
+			"site" : "",
+			"count" : 4
+		}
+		},
+{"type": "Feature","geometry": 
+	{"type": "Point", 
+	"coordinates": [-0.702978,44.765094]   },  
+		"properties": { 
+			"AirCube": true,
+			"date": "20160211 10:00", 
+			"name": "La Cestadaise",
+			"site" : "http://sagctriathlon.fr/cestadaise",
+			"count" : 3
+		}
+		},
+{"type": "Feature","geometry": 
+	{"type": "Point", 
+	"coordinates": [-0.2877423,44.4408471]   },  
+		"properties": { 
+			"AirCube": true,
+			"date": "20160211 09:00", 
+			"name": "Semi Marathon Bazas-Langon",
+			"site" : "https://www.stade-langonnais-athletisme.fr/bazas-langon/informations-g%C3%A9n%C3%A9rales/",
+			"count" : 2
+		}
+		}
+]}
+

@@ -1,0 +1,13 @@
+textPoste={"general":
+"<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. <br><br>"+					
+"<span class=\"marge\">J'ai participé à différents travaux statistiques allant de l'analyse de données (ACP-ACM-Typologies) à la modélisation, en passant par des sujets de géomarketing.<br> "+
+"Mes travaux statistiques sont principalement axés Clients, comprendre les facteurs qui induisent une réaction du client en vue d'orientés un annonceur, un institut "+
+"sur les actions à effectuer.<br><br><span class=\"marge\">Pour mener à bien ces analyses, je m'appuie sur différentes technologies acquises en fonction des besoins et des contraintes de ces études. "+
+"Celles-ci sont aussi bien orienter Statistiques (Python, SAS, Modeler, ExcelStat...) que de developpement pur (Java, C#, VB/VBA). "+ 
+"Travaillant avec de la donnée à plus ou moins grande échelle, j'ai acquis des compétences en langage SQL (SQLServer) et noSQL (ElasticSearch).<br><br>"+
+"<span class=\"marge\">La statistique doit être compréhensible et ludique, il est donc nécessaire de la visualiser. Je me suis donc intéressé à différents modes "+
+"de visualisation, notamment en javascript (librairies comme HightChart, d3js), interne aux outils (matplotlib pour Python, SASGraph) ainsi qu'en cartographie (MapInfo, Leaflet, GoogleMaps)."
+,"universite":
+"<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. (...) <br><br>"+
+"Université"
+}
