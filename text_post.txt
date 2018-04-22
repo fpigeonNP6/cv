@@ -1,6 +1,7 @@
 textPoste={
 "general":
 	{"description":
+		
 		"#alinea Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. <br><br>"+					
 		"#alinea J'ai participé à différents travaux statistiques allant de l'analyse de données (ACP-ACM-Typologies) à la modélisation, en passant par des sujets de géomarketing.<br> "+
 		"Mes travaux statistiques sont principalement axés Clients, comprendre les facteurs qui induisent une réaction du client en vue d'orienter un annonceur, un institut "+
@@ -16,7 +17,8 @@ textPoste={
 
 "41_1":
 	{"description":
-		"#alinea Formation en 3 années (Licence, Master 1-2) apportant une triple compétence en Economie, Statistique et en informatique. <br><br>"+
+		"<i>2004 - 2007: Master Ingénierie Economique Université Rennes 1<br></i><br>"+
+		"#alinea Formation en 3 années (Licence, Master 1-2) apportant une triple compétence en Economie, en Statistique et en Informatique. <br><br>"+
 		"#alinea En économie avec la compréhension des différentes théories économiques d’un point de vue Micro-économique et Macro-économique. <br><br>"+
 		"#alinea En statistique avec notamment l’analyse de données (ACP-ACM), la modélisation économétrique, en séries temporelles. Des initiations à la théorie de jeux ainsi qu’en recherche opérationnelle.<br><br>"+
 		"#alinea En informatique (orientée statistique) avec une utilisation quotidienne de SAS, SPSS, Visual Basic.<br><br>"+
@@ -25,7 +27,11 @@ textPoste={
 		"#alinea Au côté d’un enseignant chercheur, sur la recherche de l’effet d’une hausse du prix du pétrole sur les coûts de transport dans le commerce international.<br><br>"+
 		"#alinea Dans une grande entreprise, au sein de la société Carat (AEGIS Media) avec la mise en évidence de la relation entre souvenir publicitaire et notoriété de marque (cf. point suivant en statistique).<br>"
 ,
-	"competence": {},
+	"competence":[{axis:"Concept Statistiques",percent:0.4},
+						{axis:"Développement Informatique",percent:0.1},
+						{axis:"Geomarketing",percent:0.0},
+						{axis:"DataVisualisation",percent:0.0},
+						{axis:"Théorie Economique",percent:0.6}],
 	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"41"}}
 ,
 
