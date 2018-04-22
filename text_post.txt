@@ -14,6 +14,22 @@ textPoste={
 	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"0"}}
 ,
 
+"41_1":
+	{"description":
+		"#alinea Formation en 3 années (Licence, Master 1-2) apportant une triple compétence en Economie, Statistique et en informatique. <br><br>"+
+		"#alinea En économie avec la compréhension des différentes théories économiques d’un point de vue Micro-économique et Macro-économique. <br><br>"+
+		"#alinea En statistique avec notamment l’analyse de données (ACP-ACM), la modélisation économétrique, en séries temporelles. Des initiations à la théorie de jeux ainsi qu’en recherche opérationnelle.<br><br>"+
+		"#alinea En informatique (orientée statistique) avec une utilisation quotidienne de SAS, SPSS, Visual Basic.<br><br>"+
+		"#alinea Chaque année étant ponctuée d’un stage en entreprise, je les ai effectués dans différentes structures et missions.<br><br>"+ 
+		"#alinea En petite entreprise (Société de formation en langue) avec la mise en place d’une base Access.<br><br>"+
+		"#alinea Au côté d’un enseignant chercheur, sur la recherche de l’effet d’une hausse du prix du pétrole sur les coûts de transport dans le commerce international.<br><br>"+
+		"#alinea Dans une grande entreprise, au sein de la société Carat (AEGIS Media) avec la mise en évidence de la relation entre souvenir publicitaire et notoriété de marque (cf. point suivant en statistique).<br>"
+,
+	"competence": {},
+	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"41"}}
+,
+
+
 "42_1":
 	{"description":
 		"<i>Avril 2007 - Décembre 2007: Stage suivi d'un CDD - CARAT (AEGIS Media)<br></i><br>"+
