@@ -4,7 +4,7 @@ function onEachFeature(feature, layer) {
 	popupContent += '<div style="width:200px">'+feature.properties.Lieu+'</div><br>'
 	popupContent += '<div style="width:200px">'+feature.properties.Periode+'</div><br>'
 	popupContent += '<div style="width:200px">'+feature.properties.Precision+'</div><br>'
-		layer.bindPopup(popupContent);
+		//layer.bindPopup(popupContent);
 	}	
 
 

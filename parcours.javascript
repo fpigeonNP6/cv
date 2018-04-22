@@ -53,32 +53,32 @@ function createParcours(){
 	geom.commit({sha1:"43_2",message:"Chargé étude Géomarketing - SocioLogiciels"});;
 	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false})
 	var info = master.branch({column:3, name: "Devoloppeur Informatique",tooltipDisplay:false,dotSize:1});
-	info.commit({sha1:"44_1",message:"Developpeur Informatique - SocioLogiciels"})
+	info.commit({sha1:"44_1",message:"Developpeur Informatique - SocioLogiciels (NP6 Consulting)"})
 	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false})
 	
 	
 	master.commit({sha1:"04-2015",dotSize:1,tooltipDisplay:false,tag:"08-2013 NP6 Solution"});
-	info.commit({sha1:"45_1",message:"NP6 - Devoloppeur Informatique "});
+	info.commit({sha1:"45_1",message:"Devoloppeur Informatique - NP6 Solution "});
 	info.commit({sha1:"45_1",tooltipDisplay:false,dotSize:1});
-	socio.commit({tooltipDisplay:false});
-	geom.commit({tooltipDisplay:false});
+	socio.commit({tooltipDisplay:false,  dotSize:1});
+	geom.commit({tooltipDisplay:false, dotSize:2.8});
 	
 	master.commit({sha1:"04-2015",tooltipDisplay:false,dotSize:1});
 	
 	var dataScientist = socio.branch({name:"DataScientist", column:3, color:"#f1c109"});
 	
-	info.merge(dataScientist,{tooltipDisplay:false,dotSize:3});
-	dataScientist.commit({message:"NP6 DataScientist"});
+	info.merge(dataScientist,{tooltipDisplay:false,dotSize:1});
+	dataScientist.commit({sha1:"45_2",message:"DataScientist - NP6 Solution",dotSize:1});
 	
-	dataScientist.commit({tooltipDisplay:false})
+	dataScientist.commit({tooltipDisplay:false,dotSize:3})
 	//var dataScientist = info.commit({name:"Geomarketing", column:2,color:"red"});
 	//socio.merge(dataScientist);
-	info.commit({tooltipDisplay:false});
+	info.commit({tooltipDisplay:false,dotSize:1});
 	
 	
 	//info.merge(dataScientist);
 	
-	master.commit({sha1:"09-2015",message:"NP6 Developpeur Python - DataScientist",tooltipDisplay:false});
+	master.commit({sha1:"09-2015",message:"NP6 Developpeur Python - DataScientist",tooltipDisplay:false, dotSize:2.8});
 	
 	
 	

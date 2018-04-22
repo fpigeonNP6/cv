@@ -4,7 +4,7 @@ var dataGraph = [
 					  [//iPhone
 						
 						{axis:"Concept Statistiques",percent:0.8},
-						{axis:"Développement Informatique",percent:0.6},
+						{axis:"Développement Informatique",percent:0.7},
 						{axis:"Geomarketing",percent:0.8},
 						{axis:"DataVisualisation",percent:0.6},
 						{axis:"Théorie Economique",percent:0.6}

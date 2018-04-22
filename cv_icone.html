@@ -28,7 +28,7 @@
 	<pre id="console"></pre>
 	<table style="width:50%;height:125px">
 		<tr>
-		<td style="width:100px">
+		<td style="padding-left:50px;width:100px">
 			<div class="roundedImage" style="background:url(image_cv2.png) no-repeat -5px -0px;"></div>
 		</td>
 		<td style="width: 390px;font-family:trebuchet MS;font-size:14pt">
@@ -124,7 +124,11 @@ var myevent;
 RadarChart(".radarChart", dataGraph, radarChartOptions);
 function print(t) {
   var c = document.getElementById('descriptionPoste');
-  c.innerHTML = t['description'];
+	var regex = new RegExp("#alinea", 'g');
+	text = t['description'];
+	text = text.replace(regex, '<span class="marge">');
+	c.innerHTML = text;
+  //c.innerHTML = t['description'].replace("/$alinea/g","<span class=\"marge\">");
   
 	["41","42","43","44","45"].forEach(function(element) {
 		if (t['map']['icon']==element){
@@ -164,23 +168,6 @@ gitgraph = createParcours(gitgraph);
 gitgraph.canvas.clientWidth=500;  
 gitgraph.render();
 
-/// PARTIE GEOLOCATION
-
-
-<!-- L.geoJSON(someFeatures, { -->
-<!-- onEachFeature: onEachFeature, -->
-    <!-- filter: function(feature, layer) { -->
-		
-        <!-- return true; -->
-    <!-- } -->
-<!-- }).addTo(mymap); -->
- 
- 
- <!-- function onEachFeature(feature, layer) { -->
-		<!-- popupContent = '<div style="width:200px">'+feature.properties.name+'</div>' -->
-		
-		<!-- layer.bindPopup(popupContent); -->
-	<!-- } -->
 	
 
  var mymap = L.map('mapid').setView([46.65546861745921, 1.8281239271163943], 5);

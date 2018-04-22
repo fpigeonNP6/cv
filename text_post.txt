@@ -1,41 +1,125 @@
-textPoste={"general":{"description":
-"<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. <br><br>"+					
-"<span class=\"marge\">J'ai participé à différents travaux statistiques allant de l'analyse de données (ACP-ACM-Typologies) à la modélisation, en passant par des sujets de géomarketing.<br> "+
-"Mes travaux statistiques sont principalement axés Clients, comprendre les facteurs qui induisent une réaction du client en vue d'orientés un annonceur, un institut "+
-"sur les actions à effectuer.<br><br><span class=\"marge\">Pour mener à bien ces analyses, je m'appuie sur différentes technologies acquises en fonction des besoins et des contraintes de ces études. "+
-"Celles-ci sont aussi bien orienter Statistiques (Python, SAS, Modeler, ExcelStat...) que de developpement pur (Java, C#, VB/VBA). "+ 
-"Travaillant avec de la donnée à plus ou moins grande échelle, j'ai acquis des compétences en langage SQL (SQLServer) et noSQL (ElasticSearch).<br><br>"+
-"<span class=\"marge\">La statistique doit être compréhensible et ludique, il est donc nécessaire de la visualiser. Je me suis donc intéressé à différents modes "+
-"de visualisation, notamment en javascript (librairies comme HightChart, d3js), interne aux outils (matplotlib pour Python, SASGraph) "+
-"ainsi qu'en cartographie (MapInfo, Leaflet, GoogleMaps).","competence":{},"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"0"}}
-,"42_1":{"description":
-"<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. (...) <br><br>"+
-"<i>Avril 2007 - Décembre 2007 : Stage suivi d'un CDD chez Carat<br></i><br>"+
-"<span class=\"marge\"> Stage effectué au sein du service Etude sous la responsabilité de Mr Lhote. L'objectif est de mettre en évidence une relation entre le souvenir publicitaire "+
-"et la notoriété d'une marque. <br>Carat avait à sa disposition des travaux sur le souvenir publicitaire permettant de quantifier celui-ci en fonction d'un plan publicitaire (exposition "+
-"selon les différents canaux). L'idée étant d'apporter à l'annonceur une prévision de sa notoriété à l'issu d'une campagne.<br><br>"+
-"<span class=\"marge\">Les résultats étaient intéressant pour le secteur de la cosmétique, contrairement à d'autres secteurs comme l'aide à la personne<br><br>"+
-"<span class=\"marge\"> Conjoitement à ce sujet, j'ai participé à l'activité en prenant en charge le traitement de tracking hebdomadaires (traitement données, interprétations des résultats).<br><br>"+
-"Environnement de travail : SAS - Excel - Outils publicitaires",
-"competence":[{axis:"Concept Statistiques",percent:0.5},
+textPoste={
+"general":
+	{"description":
+		"#alinea Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. <br><br>"+					
+		"#alinea J'ai participé à différents travaux statistiques allant de l'analyse de données (ACP-ACM-Typologies) à la modélisation, en passant par des sujets de géomarketing.<br> "+
+		"Mes travaux statistiques sont principalement axés Clients, comprendre les facteurs qui induisent une réaction du client en vue d'orienter un annonceur, un institut "+
+		"sur les actions à effectuer.<br><br><span class=\"marge\">Pour mener à bien ces analyses, je m'appuie sur différentes technologies acquises en fonction des besoins et des contraintes de ces études. "+
+		"Celles-ci sont aussi bien orientées Statistiques (Python, SAS, Modeler, ExcelStat...) que de développement pur (Java, C#, VB/VBA). "+ 
+		"Travaillant avec de la donnée à plus ou moins grande échelle, j'ai acquis des compétences en langage SQL (SQLServer) et noSQL (ElasticSearch). <br><br>"+
+		"#alinea La statistique doit être compréhensible et ludique, il est donc nécessaire de la visualiser. Je me suis donc intéressé à différents modes "+
+		"de visualisation, notamment en javascript (librairies comme HightChart, d3js), interne aux outils (matplotlib pour Python, SASGraph) "+
+		"ainsi qu'en cartographie (MapInfo, Leaflet, GoogleMaps).",
+	"competence": {},
+	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"0"}}
+,
+
+"42_1":
+	{"description":
+		"<i>Avril 2007 - Décembre 2007: Stage suivi d'un CDD - CARAT (AEGIS Media)<br></i><br>"+
+		"#alinea  Stage effectué au sein du service Outils et Méthode sous la responsabilité de Mr Lhote. L'objectif est de mettre en évidence une relation entre le souvenir publicitaire "+
+		"et la notoriété d'une marque. <br>Carat avait à sa disposition des travaux sur le souvenir publicitaire permettant de quantifier celui-ci en fonction d'un plan publicitaire (exposition "+
+		"selon les différents canaux). L'idée étant d'apporter à l'annonceur une prévision de sa notoriété à l'issu d'une campagne publicitaire.<br><br>"+
+		"#alinea Les résultats étaient intéressant pour le secteur de la cosmétique, contrairement à d'autres secteurs comme l'aide à la personne<br><br>"+
+		"#alinea  Conjointement à ce sujet, j'ai participé à l'activité du service en prenant en charge le traitement de tracking hebdomadaires (paramétrage, traitement des données, interprétations des résultats).<br><br>"+
+		"Environnement de travail : SAS - Excel - Outils publicitaires",
+	"competence":[{axis:"Concept Statistiques",percent:0.5},
 						{axis:"Développement Informatique",percent:0.1},
 						{axis:"Geomarketing",percent:0.0},
 						{axis:"DataVisualisation",percent:0.0},
-						{axis:"Théorie Economique",percent:0.6}
-]
-,"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"42"}}
+						{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"42"}}
 
-,"42_2":{"description":
-"<span class=\"marge\">Economètre de formation, j'ai acquis, durant mon expérience professionnelle, des compétences en statistiques et en informatiques. (...) <br><br>"+
-"<i>CDD Carat: CDD Traitement Statistique.<br></i><br>"+
-"<span class=\"marge\"> Poursuite des travaux initiés lors du stage<br><br>"+
-"<span class=\"marge\">Les résultats étaient intéressant pour le secteur de la cosmétique, contrairement à d'autres secteurs comme l'aide à la personne<br><br>"+
-"<span class=\"marge\"> Conjoitement à ce sujet, j'ai participé à l'activité en prenant en charge le traitement de tracking hebdomadaires (traitement données, interprétations des résultats).<br><br>"+
-"Environnement de travail : SAS - Excel - Outils publicitaires","competence":
-[{axis:"Concept Statistiques",percent:0.2},
-						{axis:"Développement Informatique",percent:0.2},
-						{axis:"Geomarketing",percent:0.2},
-						{axis:"DataVisualisation",percent:0.2},
-						{axis:"Théorie Economique",percent:0.2}
-],"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"42"}}
-}
+
+,"43_1":
+	{"description":
+		
+		"<i>2008 - 2013: Analyste Programmeur - SocioLogiciels<br></i><br>"+
+		"#alinea Poste de chargé de traitements de données, mon travail consiste à prendre en charge le fichier de données issus des instituts et procéder aux traitements de celles-ci en vue de restituer les résultats de l’enquête sous forme de tableau Excel. <br><br>"+
+		"#alinea Je suis le garant des résultats et doit pour ce faire vérifier que les données reçues correspondent bien à la définition du questionnaire (notamment les questions filtrées). Je procède à différents traitements de la donnée (redressement, calcul de moyenne, de significativité) et peut apporter des analyses de type Bilan d’image, typologie (ACP ou ACM) ou de régression PLS.<br><br>"+
+		"#alinea En contact direct avec le client (chargé d’étude) et gérant plusieurs dossiers en parallèle, il est primordial de savoir gérer son planning, les priorités tout en respectant les impératifs du client et surtout la validité des résultats.<br><br>"+
+		"Environnement de travail : CromX (logiciel interne de traitement de données), SPSS, SAS, Excel (VBA)."
+		,
+	"competence":
+		[{axis:"Concept Statistiques",percent:0.6},
+		{axis:"Développement Informatique",percent:0.2},
+		{axis:"Geomarketing",percent:0.0},
+		{axis:"DataVisualisation",percent:0.1},
+		{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"43"}}	
+,"43_2":
+	{"description":
+		
+		"<i>2008 - 2013: Chargé d'étude Géomarketing - SocioLogiciels<br></i><br>"+
+		"#alinea Recruté chez SocioLogiciels pour ma connaissance du logiciel MapInfo, j’ai participé à la mise en place d’une cellule Géomarketing. Mon travail consiste à proposer aux annonceurs des études portant sur la localisation de leur clientèle, sur l’implantation de nouveaux magasins, ou sur leur situation vis-à-vis de leurs concurrents. <br><br>"+
+		"#alinea Je suis en charge de la collecte des informations nécessaires à ces études (données INSEE, données de marché, des données disponibles chez le clients), la géolocalisation des individus via des logiciels, création de rapports avec analyse des résultats. <br><br>"+
+		"#alinea Pour mener à bien ces études, l’automatisation de différents processus sont nécessaires. Pour ce faire, je me suis intéressé à la programmation en VBA et en SAS-macro. <br><br>"+
+		"#alinea La visualisation, et notamment cartographique, étant essentielle pour véhiculer le message, je me suis efforcé de rendre ces analyses le plus compréhensible possible. <br><br> "+
+		"Environnement de travail : Mapinfo, SAS, Excel, VBA, outils de cartographie."
+		,
+	"competence":
+		[{axis:"Concept Statistiques",percent:0.6},
+		{axis:"Développement Informatique",percent:0.3},
+		{axis:"Geomarketing",percent:0.8},
+		{axis:"DataVisualisation",percent:0.3},
+		{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"43"}}	
+,"44_1":
+	{"description":
+		
+		"<i>2013 - 2015: Développeur Informatique en reporting - SocioLogiciels<br></i><br>"+
+		"#alinea Soucieux de progresser en automatisation de processus, j’intègre l’équipe développement de SocioLogiciels. <br><br>"+
+		"#alinea Je prends en charge différents dossiers allant de l’automatisation de la création de reporting sous PowerPoint, la refonte d’un questionnaire on-line pour qu’il s’adapte facilement aux nouvelles demandes du client, la participation à un site Web de reporting avec ajout d’une dimension cartographique.<br><br>"+
+		"#alinea De mon passé de charger de traitement, je suis l’interlocuteur principale pour les sujets d’automatisation du traitement statistiques. Avec la mise en place de macro-Excel permettant aux chargés de traitement d’appliquer les résultats de typologie à un nouveau jeu de données.<br><br>"+
+		"#alinea En fonction du projet, je programme sous différents langages. J’acquière donc des notions en VB.net, VBA, C#, en SQL. Je m’intéresse à la visualisation avec des librairies dédiées (HightCharts, KendoUI).<br><br>"+
+		"#alinea Cette orientation m’a permis de me rapprocher de NP6-Solution en vue d’apporter mon expertise Statistique à leur platefrome web.<br><br>"+
+		"Environnement de travail : VB/VBA, C#, Javascript (KendoUI, HightChart), SQL (SQLServer, MySQL)"
+		,
+	"competence":
+		[{axis:"Concept Statistiques",percent:0.6},
+		{axis:"Développement Informatique",percent:0.5},
+		{axis:"Geomarketing",percent:0.8},
+		{axis:"DataVisualisation",percent:0.5},
+		{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[48.913835813113394, 2.366454675793648],"zoom":9,"icon":"44"}}	
+
+,"45_1":
+	{"description":
+		"<i>2015 - 2016: Développeur Informatique - NP6 Solution<br></i><br>"+
+		"#alinea Soucieux de progresser en automatisation de processus, j’intègre l’équipe développement de SocioLogiciels. <br><br>"+
+		"#alinea NP6 Solution est société proposant, notamment, à ses clients une solution on-line de gestion de campagne marketing (de la création du visuel à l’envoi de mails/SMS en passant par la gestion des cibles) <br><br>"+
+		"#alinea Suite au rapprochement SocioLogiciels et NP6, j’intègre le service développement de NP6. Mes premières missions portent sur des correctifs de développement (debug) pour progresser en programmation et en connaissance de la plateforme.<br><br>"+
+		"#alinea NP6 Solution souhaite mettre en place des services de segmentation basés sur l’analyse des cibles, de leur historique d’achat, de leur comportement face à la réception de message. <br>"+
+		"#alinea Je participe activement à la mise en place d’une solution prédisant l’appétence d’ouverture ou le risque de Churn (désabonnement) d’une cible. Cette solution développée en Python intègre du Machine Learning (librairie scikit-learn). Mais mes premiers travaux consistent à construire ce service permettant d’interroger les données disponibles sur la plateforme via des appels API, traiter cette donnée pour la rendre exploitable à la prédiction et la rendre utilisable par la plateforme (création de segment). <br><br>"+
+		"#alinea Suite au rachat d’Ezacus par NP6, notre équipe intègre leur cellule DataScience. <br><br>"+
+		"Environnement de travail : Python, C#, javascript, nodeJS"
+		,
+	"competence":
+		[{axis:"Concept Statistiques",percent:0.6},
+		{axis:"Développement Informatique",percent:0.6},
+		{axis:"Geomarketing",percent:0.8},
+		{axis:"DataVisualisation",percent:0.5},
+		{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"45"}}	
+
+,"45_2":
+	{"description":
+		"<i>depuis 2016: DataScientist - NP6 Solution<br></i><br>"+
+		"#alinea L’intégration à l’équipe DataScience d’Ezacus, m’apporte des compétences accrues en Machine Learning, et en gestion de la donnée à grande échelle.  <br><br>"+
+		"#alinea Cette équipe ayant déjà une solution de prédiction, notre travail a été intégré à celle-ci. Cette solution programmée en Java m’a permis d’apprendre un nouveau langage informatique et d’autres d’outils de management de projet (GitHub, Jenkins, Docker). <br><br>"+
+		"#alinea La nouvelle orientation prise par NP6, notamment dans la gestion de la donnée Client-Centrique, avec l’utilisation des bases noSQL (ElasticSearch), a permis à notre solution de gérer plus efficacement la donnée. <br><br>"+
+		"#alinea Conjointement à ces travaux, j’apporte mon expertise en géolocalisation et en données orientées géomarketing en mettant en place une solution d’enrichissement de données et de segmentation basée sur la localisation des cibles de nos clients. <br><br>"+
+		"#alinea Etant statisticien au milieu de développeurs informatiques, d’utilisateur de la plateforme pour les comptes de nos clients, il est nécessaire de vulgariser nos travaux et de les rendre accessibles. J’ai proposé des solutions de Data Visualisation exploitable par notre plateforme (D3js, leaflet). <br><br>"+
+
+		"Environnement de travail : Java, Python, ElasticSearch, javascript, Github, Jenkins, Docker "
+		,
+	"competence":
+		[{axis:"Concept Statistiques",percent:0.8},
+		{axis:"Développement Informatique",percent:0.7},
+		{axis:"Geomarketing",percent:0.8},
+		{axis:"DataVisualisation",percent:0.6},
+		{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"45"}}	
+	
+	
+	}

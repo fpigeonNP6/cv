@@ -389,9 +389,10 @@
       self.tooltip.style.left = event.clientX + "px"; // TODO Scroll bug
       self.tooltip.style.top = event.clientY + "px"; // TODO Scroll bug
       if (self.template.commit.tooltipHTMLFormatter !== null) {
+		  commit['message']=commit['message'].replace("-","<br>")
         self.tooltip.innerHTML = self.template.commit.tooltipHTMLFormatter(commit);
       } else {
-        self.tooltip.textContent = commit.sha1 + " - " + commit.message;
+        self.tooltip.textContent = commit.sha1 + " <br> " + commit.message;
       }
       self.tooltip.style.display = "block";
     }
@@ -409,9 +410,11 @@
 
     self.applyCommits(event, function (commit, isOverCommit, event) {
       if (isOverCommit) {
+		  
         if (!self.template.commit.message.display && self.template.commit.shouldDisplayTooltipsInCompactMode) {
           showCommitTooltip(commit);
 		  mycommit=commit.sha1;
+		  console.log(mycommit);
 		  if (mycommit in textPoste){
 		  print(textPoste[mycommit])
 		  }
@@ -430,7 +433,7 @@
         // Don't emit event if we already were out of a commit.
         if (commit.isMouseOver) {
           emitCommitEvent(commit, "mouseout");
-		  print(textPoste["general"]);
+		  //print(textPoste["general"]);
         }
         commit.isMouseOver = false;
 		
