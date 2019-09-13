@@ -74,6 +74,7 @@ function createParcours(){
 	
 	master.commit({sha1:"09-2015",message:"NP6 Developpeur Python - DataScientist",tooltipDisplay:false, dotSize:2.8});
 	info.commit({sha1:"45_3",message:"DataScientist - NP6 Solution",dotSize:8})
+	master.commit({sha1:"99_0",dotSize:1,tooltipDisplay:false,tag:"09-2018 Scalian"});
 	dataScientist.commit({sha1:"45_3",message:"DataScientist - Scalian",dotSize:8});
 	master.commit({sha1:"09-2018",message:"Scalian - DataScientist",tooltipDisplay:false, dotSize:2.8});
 	
