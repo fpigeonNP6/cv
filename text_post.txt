@@ -126,7 +126,7 @@ textPoste={
 
 ,"45_2":
 	{"description":
-		"<i>depuis 2016: DataScientist - NP6 Solution<br></i><br>"+
+		"<i>2016 - Août 2018: DataScientist - NP6 Solution<br></i><br>"+
 		"#alinea L’intégration à l’équipe DataScience d’Ezacus, m’apporte des compétences accrues en Machine Learning, et en gestion de la donnée à grande échelle.  <br><br>"+
 		"#alinea Cette équipe ayant déjà une solution de prédiction, notre travail a été intégré à celle-ci. Cette solution programmée en Java m’a permis d’apprendre un nouveau langage informatique et d’autres d’outils de management de projet (GitHub, Jenkins, Docker). <br><br>"+
 		"#alinea La nouvelle orientation prise par NP6, notamment dans la gestion de la donnée Client-Centrique, avec l’utilisation des bases noSQL (ElasticSearch), a permis à notre solution de gérer plus efficacement la donnée. <br><br>"+
@@ -142,6 +142,22 @@ textPoste={
 		{axis:"DataVisualisation",percent:0.6},
 		{axis:"Théorie Economique",percent:0.6}],
 	"map":{"center":[46.65546861745921, 1.8281185626983645],"zoom":5,"icon":"45"}}	
-	
+
+,"45_3":
+	{"description":
+		"<i>depuis Sept 2018: DataScientist - Scalian<br></i><br>"+
+		"#alinea Intégré à une équipe de 3 Datascientists, j'ai participé à différents projets de détection d'anomalies pour le compte de clients dans le domaine de l'aéronautique.  <br><br>"+
+		"#alinea Mon travail consiste à évaluer différents modèles de détection (supervisés et non supervisés) et d'exposer les résultats à des acteurs non experts en machine learning <br><br>"+
+		"#alinea Je travaille actuellement sur un projet de test de masse de données d'aviation (simulées) pour extraire des informations pertinentes et détecter d'éventuelles anomalies <br><br>"+
+		
+		"Environnement de travail : Python, Github"
+		,
+	"competence":
+		[{axis:"Concept Statistiques",percent:0.85},
+		{axis:"Développement Informatique",percent:0.75},
+		{axis:"Geomarketing",percent:0.8},
+		{axis:"DataVisualisation",percent:0.6},
+		{axis:"Théorie Economique",percent:0.6}],
+	"map":{"center":[44.86065,-0.675301],"zoom":7,"icon":"45"}}	
 	
 	}
