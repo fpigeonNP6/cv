@@ -77,7 +77,21 @@ var someFeatures = {"type":"FeatureCollection",
 			"Acquisition de compétences en Python (notamment en MachineLearning), Java, ElasticSearch, Jenkins, Kafka"+
 			"<br><br>"
 		}
+		},
+	{"type": "Feature","geometry": 
+	
+	{"type": "Point", 
+	"coordinates": [ -0.675301,44.86065]  },  
+		"properties": {
+			"Intitulé": "DataScientist",		
+			"Lieu":"Scalian",
+			"Periode": "Depuis Sept 2019", 
+			"Precision": ""+
+			
+			"<br><br>"
 		}
+		}
+
 		
 		
 		
