@@ -3,8 +3,8 @@ var colors = ["#329AF0","#f1c109"];
 var dataGraph = [
 					  [//iPhone
 						
-						{axis:"Concept Statistiques",percent:0.8},
-						{axis:"Développement Informatique",percent:0.7},
+						{axis:"Concept Statistiques",percent:0.85},
+						{axis:"Développement Informatique",percent:0.75},
 						{axis:"Geomarketing",percent:0.8},
 						{axis:"DataVisualisation",percent:0.6},
 						{axis:"Théorie Economique",percent:0.6}
