@@ -150,7 +150,7 @@ textPoste={
 		"#alinea Mon travail consiste à évaluer différents modèles de détection (supervisés et non supervisés) et d'exposer les résultats à des acteurs non experts en machine learning <br><br>"+
 		"#alinea Je travaille actuellement sur un projet de test de masse de données d'aviation (simulées) pour extraire des informations pertinentes et détecter d'éventuelles anomalies <br><br>"+
 		
-		"Environnement de travail : Python, Github"
+		"Environnement de travail : Python"
 		,
 	"competence":
 		[{axis:"Concept Statistiques",percent:0.85},
