@@ -85,13 +85,26 @@ var someFeatures = {"type":"FeatureCollection",
 		"properties": {
 			"Intitulé": "DataScientist",		
 			"Lieu":"Scalian",
-			"Periode": "Depuis Sept 2019", 
+			"Periode": "Depuis Sept 2018", 
 			"Precision": ""+
 			
 			"<br><br>"
 		}
 		}
-
+,
+	{"type": "Feature","geometry": 
+	
+	{"type": "Point",
+	"coordinates": [ -0.464777,46.323716]  },  
+		"properties": {
+			"Intitulé": "DataScientist",		
+			"Lieu":"Scalian (Niort)",
+			"Periode": "Depuis fév. 2020", 
+			"Precision": ""+
+			
+			"<br><br>"
+		}
+		}
 		
 		
 		
